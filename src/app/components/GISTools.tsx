@@ -1,14 +1,7 @@
 "use client";
-import Image from "next/image";
-import { RiReactjsLine } from "react-icons/ri";
-import { TbBrandNextjs } from "react-icons/tb";
-import { FaPython } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
-import { FaDocker } from "react-icons/fa";
-import { SiQgis } from "react-icons/si";
 import { SiArcgis } from "react-icons/si";
 import { SiGoogleearthengine } from "react-icons/si";
-import { motion, Variants } from "motion/react";
+import { motion } from "motion/react";
 
 const iconVariants = (duration: number) => ({
   initial: { y: -10 },

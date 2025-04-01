@@ -2,9 +2,7 @@
 import { PROJECTS } from "@/app/details";
 import Image from "next/image";
 import { StaticImageData } from "next/image";
-import Link from "next/link";
-import { motion, Variants } from "motion/react";
-import { div } from "motion/react-client";
+import { motion } from "motion/react";
 
 interface Project {
   title: string;

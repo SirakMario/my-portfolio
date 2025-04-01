@@ -1,20 +1,11 @@
-
-import logo from "@/public/assets/raviKumarLogo.webp";
 import Link from "next/link";
-import Image from "next/image";
-import { FaLinkedin, FaInstagram, FaGithub, FaGitAlt } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
   return (
     <>
       <nav className="flex items-center justify-between py-6">
         {/* nav */}
-        {/* <div className="flex flex-wrap items-center justify-between text-lg">
-          <Link className="px-3" href="#hero">Home</Link>
-          <Link className="px-3" href="#project">Project</Link>
-          <Link className="px-3" href="#experince">Exprience</Link>
-          <Link className="px-3" href="#contacts">Contact</Link>
-        </div> */}
         <div className="flex flex-shrink-0 items-center">
           <a href="#">
             <img src="glob2.gif" width={55} height={33} alt="" className="lg:hidden" />

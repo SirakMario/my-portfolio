@@ -21,14 +21,14 @@ export default function Contact() {
           initial={{ opacity: 1, x: -100 }}
           transition={{ duration: 1 }}
         >
-          {CONTACT.address}
+          {CONTACT[0].address}
         </motion.p>
         <motion.p
           whileInView={{ opacity: 1, x: 0 }}
           initial={{ opacity: 1, x: 100 }}
           transition={{ duration: 1 }}
         >
-          {CONTACT.phoneNo}
+          {CONTACT[0].phoneNo}
         </motion.p>
         <motion.div
           whileInView={{ opacity: 1, x: 0 }}
@@ -36,7 +36,7 @@ export default function Contact() {
           transition={{ duration: 1 }}
         >
           <Link href="#" className="border-b">
-            {CONTACT.email}
+            {CONTACT[0].email}
           </Link>
         </motion.div>
 

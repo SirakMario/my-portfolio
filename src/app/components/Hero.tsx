@@ -1,5 +1,4 @@
 "use client";
-import Image from "next/image";
 import Link from "next/link";
 import { ABOUT_TEXT } from "../details";
 import { Position } from "../details";

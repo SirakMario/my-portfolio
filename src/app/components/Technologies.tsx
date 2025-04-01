@@ -1,9 +1,7 @@
 "use client";
 import React from "react";
-import Image from "next/image";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
-import { FaPython } from "react-icons/fa";
 import { BiLogoPostgresql } from "react-icons/bi";
 import { FaDocker } from "react-icons/fa";
 import { SiLeaflet } from "react-icons/si";
@@ -11,7 +9,7 @@ import { TbBrandThreejs } from "react-icons/tb";
 import { FaGitAlt } from "react-icons/fa";
 import { FcLinux } from "react-icons/fc";
 import { SiTailwindcss } from "react-icons/si";
-import { motion, Variants } from "motion/react";
+import { motion } from "motion/react";
 
 const iconVariants = (duration: number) => ({
   initial: { y: -10 },
@@ -49,10 +47,6 @@ export default function Technologies() {
           className="flex flex-wrap items-center justify-center gap-4 pr-14 -translate-x-0"
         >
           {/* Tech. Icons */}
-          {/* <div>
-            <FaPython className="text-7xl text-white" />
-          </div> */}
-
           <div>
             <img src="icons/python.svg" width={100} height={100} alt="" />
           </div>

@@ -46,7 +46,7 @@ export const EXPERIENCES: Experience [] = [
 
 interface Project {
   title: string;
-  image: string | any;
+  image: string |any;
   description: string;
   technologies: string[];
   links: string;
@@ -104,13 +104,13 @@ export const PROJECTS: Project[] = [
 ];
 
 interface Contact {
-  address: string | any;
+  address: string;
   phoneNo: string;
   email: string;
 }
 
-export const CONTACT: Contact[] = {
+export const CONTACT: Contact[] = [{
   address: "Münster, Germany",
   phoneNo: "+491785816336",
   email: "sirak.nafu@gmail.com",
-};
+}];
