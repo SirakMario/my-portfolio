@@ -1,6 +1,6 @@
 "use client";
 import { EXPERIENCES } from "@/app/details";
-import { motion, Variants } from "motion/react";
+import { motion } from "motion/react";
 interface Experience {
   year: string;
   role: string;

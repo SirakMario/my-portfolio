@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import { SiArcgis } from "react-icons/si";
 import { SiGoogleearthengine } from "react-icons/si";
 import { motion } from "motion/react";
@@ -44,15 +45,15 @@ export default function GISTools() {
                   <img src="https://avatars.githubusercontent.com/u/186522?s=200&v=4" width={70} height={70}></img>
                 </div>
                 <div className="pl-8">
-                  <SiArcgis  className="text-7xl"></SiArcgis>
+                  <SiArcgis  className="text-7xl text-blue-400"></SiArcgis>
                 </div>
 
                 <div>
-                  <img src="icons/qgis.png" width={130} height={130} alt="" />
+                  <Image src="/icons/qgis.png" width={130} height={130} alt="" />
                 </div>
 
                 <div>
-                  <SiGoogleearthengine className="text-7xl" />
+                  <SiGoogleearthengine className="text-7xl text-gray-300" />
                 </div>
 
 

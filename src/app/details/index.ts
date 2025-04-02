@@ -1,8 +1,10 @@
+import { StaticImageData } from 'next/image';
 import project1 from "./projects/predictingMinerals.png";
-import project2 from "./projects/as-river.jpg";
+import project2 from "./projects/as-river.png";
 import project3 from "./projects/u-net.png";
 import project4 from "./projects/resturant_locator.png";
 import project5 from "./projects/erigeodatabase.jpg";
+
 
 export const Position : string = `Web. Dev | Geospatial Data Science`;
 
@@ -46,7 +48,7 @@ export const EXPERIENCES: Experience [] = [
 
 interface Project {
   title: string;
-  image: string |any;
+  image: string | StaticImageData;
   description: string;
   technologies: string[];
   links: string;

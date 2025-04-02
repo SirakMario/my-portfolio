@@ -1,5 +1,6 @@
 "use client";
 import React from "react";
+import Image from "next/image";
 import { RiReactjsLine } from "react-icons/ri";
 import { TbBrandNextjs } from "react-icons/tb";
 import { BiLogoPostgresql } from "react-icons/bi";
@@ -11,18 +12,18 @@ import { FcLinux } from "react-icons/fc";
 import { SiTailwindcss } from "react-icons/si";
 import { motion } from "motion/react";
 
-const iconVariants = (duration: number) => ({
-  initial: { y: -10 },
-  animate: {
-    y: [10, -10],
-    transition: {
-      duration: duration,
-      ease: "linear",
-      repeat: Infinity,
-      repreatType: "reverse",
-    },
-  },
-});
+// const iconVariants = (duration: number) => ({
+//   initial: { y: -10 },
+//   animate: {
+//     y: [10, -10],
+//     transition: {
+//       duration: duration,
+//       ease: "linear",
+//       repeat: Infinity,
+//       repreatType: "reverse",
+//     },
+//   },
+// });
 
 export default function Technologies() {
   return (
@@ -47,8 +48,8 @@ export default function Technologies() {
           className="flex flex-wrap items-center justify-center gap-4 pr-14 -translate-x-0"
         >
           {/* Tech. Icons */}
-          <div>
-            <img src="icons/python.svg" width={100} height={100} alt="" />
+          <div >
+            <Image src="/icons/python1.png" width={60} height={60} alt=""/>
           </div>
           <div>
             <FcLinux className="text-7xl"></FcLinux>
