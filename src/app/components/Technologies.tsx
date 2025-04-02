@@ -10,20 +10,9 @@ import { TbBrandThreejs } from "react-icons/tb";
 import { FaGitAlt } from "react-icons/fa";
 import { FcLinux } from "react-icons/fc";
 import { SiTailwindcss } from "react-icons/si";
+import { SiTypescript } from "react-icons/si";
 import { motion } from "motion/react";
 
-// const iconVariants = (duration: number) => ({
-//   initial: { y: -10 },
-//   animate: {
-//     y: [10, -10],
-//     transition: {
-//       duration: duration,
-//       ease: "linear",
-//       repeat: Infinity,
-//       repreatType: "reverse",
-//     },
-//   },
-// });
 
 export default function Technologies() {
   return (
@@ -48,8 +37,8 @@ export default function Technologies() {
           className="flex flex-wrap items-center justify-center gap-4 pr-14 -translate-x-0"
         >
           {/* Tech. Icons */}
-          <div >
-            <Image src="/icons/python1.png" width={60} height={60} alt=""/>
+          <div>
+            <Image src="/icons/python1.png" width={60} height={60} alt="Python" />
           </div>
           <div>
             <FcLinux className="text-7xl"></FcLinux>
@@ -59,6 +48,9 @@ export default function Technologies() {
           </div>
           <div>
             <BiLogoPostgresql className="text-7xl text-blue-500" />
+          </div>
+          <div>
+            <SiTypescript  className="text-6xl text-blue-400"></SiTypescript>
           </div>
           <div>
             <RiReactjsLine className="text-7xl text-cyan-400"></RiReactjsLine>

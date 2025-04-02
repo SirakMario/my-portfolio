@@ -1,7 +1,7 @@
 import { StaticImageData } from 'next/image';
 import project1 from "./projects/predictingMinerals.png";
-import project2 from "./projects/as-river.png";
-import project3 from "./projects/u-net.png";
+import project2 from "./projects/u-net.png";
+import project3 from "./projects/as-river.png";
 import project4 from "./projects/resturant_locator.png";
 import project5 from "./projects/erigeodatabase.jpg";
 
@@ -101,7 +101,7 @@ export const PROJECTS: Project[] = [
     description:
       "Developed a centralized web platform for managing geochemistry, geophysics, and map data. Implemented a security system with user account verification and enabled integration with GIS tools for data visualization, editing, and export. Optimized search queries and provided a summary view of geospatial data.",
     technologies: ["Django", "Geoserver", "PostgreSQL"],
-    links: "https://github.com/SirakMario/Restaurant_Finder",
+    links: ""
   },
 ];
 

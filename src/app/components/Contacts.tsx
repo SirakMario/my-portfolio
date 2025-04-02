@@ -42,7 +42,7 @@ export default function Contact() {
 
         <div className="flex md:hidden mt-2 items-center justify-center gap-4 text-2xl">
           <Link
-            href="www.linkedin.com/in/sirak-tesfamariam-asfaha"
+            href="https://linkedin.com/in/sirak-tesfamariam-asfaha"
             target="_blank"
             rel="noopener noreferrer"
             arial-label="LinkedIn"
