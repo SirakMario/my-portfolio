@@ -4,19 +4,6 @@ import { SiArcgis } from "react-icons/si";
 import { SiGoogleearthengine } from "react-icons/si";
 import { motion } from "motion/react";
 
-const iconVariants = (duration: number) => ({
-  initial: { y: -10 },
-  animate: {
-    y: [10, -10],
-    transition: {
-      duration: duration,
-      ease: "linear",
-      repeat: Infinity,
-      repreatType: "reverse",
-    },
-  },
-});
-
 export default function GISTools() {
   return (
     <div className="pb-24">
@@ -42,7 +29,7 @@ export default function GISTools() {
                 {/* Geospatil. Icons */}
       
                 <div>
-                  <img src="https://avatars.githubusercontent.com/u/186522?s=200&v=4" width={70} height={70}></img>
+                  <Image src="https://avatars.githubusercontent.com/u/186522?s=200&v=4" width={70} height={70} alt=""></Image>
                 </div>
                 <div className="pl-8">
                   <SiArcgis  className="text-7xl text-blue-400"></SiArcgis>

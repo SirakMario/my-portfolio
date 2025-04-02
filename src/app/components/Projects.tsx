@@ -9,7 +9,7 @@ interface Project {
   image: string | StaticImageData;
   description: string;
   technologies: string[];
-  links: String;
+  links: string;
 }
 export default function Projects() {
   return (

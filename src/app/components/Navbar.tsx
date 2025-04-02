@@ -1,4 +1,5 @@
 import Link from "next/link";
+import Image from "next/image";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 
 export default function Navbar() {
@@ -8,7 +9,7 @@ export default function Navbar() {
         {/* nav */}
         <div className="flex flex-shrink-0 items-center">
           <a href="#">
-            <img src="glob2.gif" width={55} height={33} alt="" className="lg:hidden" />
+            <Image src="/glob2.gif" width={55} height={33} alt="glob" className="lg:hidden" />
             <video src="glob.mp4"
             autoPlay
             loop

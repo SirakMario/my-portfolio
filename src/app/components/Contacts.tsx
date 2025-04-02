@@ -1,7 +1,7 @@
 "use client";
 import Link from "next/link";
 import { CONTACT } from "@/app/details";
-import { FaLinkedin, FaInstagram, FaGithub, FaGitAlt } from "react-icons/fa";
+import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { motion } from "motion/react";
 
 export default function Contact() {
