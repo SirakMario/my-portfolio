@@ -72,8 +72,8 @@ export default function Hero() {
               <Link
                 href="Sirak.pdf"
                 target="_blank"
-                rel="noopener noreferrer"
-                download
+                // rel="noopener noreferrer"
+                // download
                 className="
                 bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
               >
