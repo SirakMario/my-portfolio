@@ -1,13 +1,7 @@
 "use client";
 import { EXPERIENCES } from "@/app/details";
 import { motion } from "motion/react";
-interface Experience {
-  year: string;
-  role: string;
-  company: string;
-  description: string;
-  technologies: string[];
-}
+
 export default function Experience() {
   return (
     <div className="pb-4" id="experince">
@@ -20,7 +14,7 @@ export default function Experience() {
         Experience
       </motion.h2>
       <div>
-        {EXPERIENCES.map((experience: Experience, index: number) => (
+        {EXPERIENCES.map((experience, index: number) => (
           <div className="mb-6 flex flex-wrap lg:justify-center" key={index}>
             {/* Year */}
             <motion.div

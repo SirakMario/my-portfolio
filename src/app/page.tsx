@@ -3,8 +3,10 @@ import Hero from "./components/Hero";
 import Technologies from "./components/Technologies";
 import Projects from "./components/Projects";
 import Experience from "./components/Experience";
+import Education from "./components/Education";
 import Contact from "./components/Contacts";
 import GISTools from "./components/GISTools";
+import Footer from "./components/footer";
 import StarsCanvas from "./components/starBg";
 
 export default function Home() {
@@ -23,7 +25,9 @@ export default function Home() {
         <GISTools />
         <Projects />
         <Experience />
+        <Education />
         <Contact />
+        <Footer />
       </div>
 
       

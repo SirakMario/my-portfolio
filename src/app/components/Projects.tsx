@@ -49,7 +49,7 @@ export default function Projects() {
                   height={250}
                   alt={project.title}
                   className="mb-6 rounded"
-                ></Image>
+                  style={{ width: 'auto', height: 'auto' }}></Image>
               </motion.div>
               <motion.div
                 whileInView={{ opacity: 1, x: 0 }}

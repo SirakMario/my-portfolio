@@ -16,7 +16,7 @@ export const ABOUT_TEXT: string = `I am a Geospatial and GIS analyst with a back
               Geoserver. Always eager to tackle new challenges and expand my
               skills in geospatial technology.`;
 
-interface Experience  {
+export interface Experience  {
   year: string;
   role: string;
   company: string;
@@ -104,6 +104,26 @@ export const PROJECTS: Project[] = [
     links: ""
   },
 ];
+
+interface Education {
+  year: string;
+  degree: string;
+  universities: string[];
+
+}
+export const EDUCATIONS: Education [] = [
+  {
+    year: "2023 - 2025",
+    degree: "MSc. in Geospatial Technologies",
+    universities: ["University of Muenster, Germany", "Universidade Nova de Lisboa, Portugal"]
+  },
+
+  {
+    year: "2014 - 2019",
+    degree: "BSc. in Geology",
+    universities: ["Eritrean Institute Technology (EIT), Eritrea"]
+  }
+]
 
 interface Contact {
   address: string;

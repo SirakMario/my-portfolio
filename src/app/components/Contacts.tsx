@@ -4,6 +4,7 @@ import { CONTACT } from "@/app/details";
 import { FaLinkedin, FaGithub } from "react-icons/fa";
 import { motion } from "motion/react";
 
+
 export default function Contact() {
   return (
     <div className="boarder-t border-stone-900 pb-2" id="contacts">

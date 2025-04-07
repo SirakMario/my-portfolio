@@ -9,11 +9,12 @@ export default function Navbar() {
         {/* nav */}
         <div className="flex flex-shrink-0 items-center">
           <a href="#">
-            <Image src="/glob2.gif" width={55} height={33} alt="glob" className="lg:hidden" />
+            <Image src="/glob2.gif" width={55} height={33} alt="glob" className="lg:hidden"/> 
             <video src="glob.mp4"
             autoPlay
             loop
             muted
+        
             className="hidden lg:block h-15 w-auto bg-transparent transition-all duration-300 ease-in-out hover:scale-110"></video>
           </a>
         </div>
