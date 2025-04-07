@@ -2,6 +2,7 @@
 import Link from "next/link";
 import { ABOUT_TEXT } from "../details";
 import { Position } from "../details";
+
 import { motion, Variants } from "motion/react";
 
 const containerVariants: Variants = {
@@ -72,8 +73,9 @@ export default function Hero() {
               <Link
                 href="Sirak.pdf"
                 target="_blank"
-                // rel="noopener noreferrer"
-                // download
+                rel="noopener noreferrer"
+                download
+                locale={false}
                 className="
                 bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
               >
