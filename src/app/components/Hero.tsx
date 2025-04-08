@@ -71,11 +71,11 @@ export default function Hero() {
             {/* Download button */}
             <motion.div variants={childVariants}>
               <Link
-                href="Sirak.pdf"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
-                locale={false}
+              
                 className="
                 bg-white rounded-full p-4 text-sm text-stone-800 mb-10"
               >

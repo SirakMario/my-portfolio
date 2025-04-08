@@ -29,16 +29,18 @@ export default function GISTools() {
                 {/* Geospatil. Icons */}
       
                 <div>
-                  <Image src="https://avatars.githubusercontent.com/u/186522?s=200&v=4" width={60} height={60} alt="" style={{ width: 'auto', height: 'auto' }}></Image>
+                  <Image src="https://avatars.githubusercontent.com/u/186522?s=200&v=4" width={60} height={60} alt="Geoserver" style={{ width: 'auto', height: 'auto' }}></Image>
                 </div>
                 <div className="pl-8">
                   <SiArcgis  className="text-7xl text-blue-400"></SiArcgis>
                 </div>
 
                 <div>
-                  <Image src="/icons/qgis.png" width={100} height={100} alt="" style={{ width: 'auto', height: 'auto' }} />
+                  <Image src="/icons/qgis.png" width={100} height={100} alt="QGIS" style={{ width: 'auto', height: 'auto' }} />
                 </div>
-
+                <div>
+                  <Image src="/icons/FME.png" width={100} height={100} alt="FME"  style={{ width: 'auto', height: 'auto' }}/>
+                </div>
                 <div>
                   <SiGoogleearthengine className="text-7xl text-gray-500" />
                 </div>
