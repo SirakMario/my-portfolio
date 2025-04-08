@@ -71,7 +71,7 @@ export default function Hero() {
             {/* Download button */}
             <motion.div variants={childVariants}>
               <Link
-                href="#"
+                href="/Sirak.pdf"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
