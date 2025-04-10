@@ -133,6 +133,6 @@ interface Contact {
 
 export const CONTACT: Contact[] = [{
   address: "Münster, Germany",
-  phoneNo: "+491785816336",
+  phoneNo: "+491575936467",
   email: "sirak.nafu@gmail.com",
 }];
