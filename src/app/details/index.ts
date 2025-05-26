@@ -57,7 +57,7 @@ interface Project {
 export const PROJECTS: Project[] = [
   {
     title:
-      "Predicting Mineral Anomalies using ASTER and Sentinel-2 data in Eritrea (Thesis)",
+      "Multispectral Image Analysis of ASTER and Sentinel-2 Satellite Data for Mineral Exploration Using Machine Learning Algorithms (Thesis)",
     image: project1,
     description:
       "Enhanced mineral detection using band ratioing and PCA, visualized mineral distributions with RGB band composition, and applied SMOTE and undersampling techniques. Developed and trained machine learning models (Random Forest and SVM) to predict mineral occurrences.",
@@ -132,7 +132,7 @@ interface Contact {
 }
 
 export const CONTACT: Contact[] = [{
-  address: "Münster, Germany",
-  phoneNo: "+491575936467",
+  address: "Lisbon, Portugal",
+  phoneNo: "+351920164305",
   email: "sirak.nafu@gmail.com",
 }];
