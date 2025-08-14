@@ -1,5 +1,5 @@
 "use client";
-import Link from "next/link";
+// import Link from "next/link";
 import { ABOUT_TEXT } from "../details";
 import { Position } from "../details";
 
@@ -71,7 +71,7 @@ export default function Hero() {
             {/* Download button */}
             {/* <motion.div variants={childVariants}>
               <Link
-                href="/Sirak.pdf"
+                href="/#"
                 target="_blank"
                 rel="noopener noreferrer"
                 download
