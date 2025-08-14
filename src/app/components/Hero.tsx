@@ -69,7 +69,7 @@ export default function Hero() {
               {ABOUT_TEXT}
             </motion.p>
             {/* Download button */}
-            <motion.div variants={childVariants}>
+            {/* <motion.div variants={childVariants}>
               <Link
                 href="/Sirak.pdf"
                 target="_blank"
@@ -81,7 +81,7 @@ export default function Hero() {
               >
                 Download Resume
               </Link>
-            </motion.div>
+            </motion.div> */}
           </motion.div>
         </div>
       </div>

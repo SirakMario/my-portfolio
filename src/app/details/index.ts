@@ -6,7 +6,7 @@ import project4 from "./projects/resturant_locator.png";
 import project5 from "./projects/erigeodatabase.jpg";
 
 
-export const Position : string = `Web. Dev | Geospatial Data Science`;
+export const Position : string = `GIS. Dev | Geospatial Data Science`;
 
 export const ABOUT_TEXT: string = `I am a Geospatial and GIS analyst with a background in
               geology and hands-on experience in website development and spatial data
@@ -42,6 +42,18 @@ export const EXPERIENCES: Experience [] = [
       "Geoserver",
       "AutoCAD",
       "ERDAS IMAGINE",
+    ],
+  },
+  {
+    year: "2018 - 2018",
+    role: "Hydrogeologist Intern | Remote sensing Analyst",
+    company: "Eritrea Water Resources Department",
+    description: `As a Geospatial Data Specialist, responsibilities included creating, maintaining, and updating spatial databases. The role involved performing remote sensing tasks such as processing satellite images, as well as developing, editing, and updating spatial and hydrometeorological data using GPS and digitization techniques with satellite imagery. Additionally, historical geological maps were georeferenced with modern geospatial data to enhance analysis and visualization.`,
+    technologies: [
+      "QGIS",
+      "Geoserver",
+      "AutoCAD",
+      "ENVI",
     ],
   },
 ];
@@ -132,7 +144,7 @@ interface Contact {
 }
 
 export const CONTACT: Contact[] = [{
-  address: "Lisbon, Portugal",
-  phoneNo: "+351920164305",
+  address: "Münster, Germany",
+  phoneNo: "+4915755936467",
   email: "sirak.nafu@gmail.com",
 }];
