@@ -2,6 +2,7 @@
 import Image from "next/image";
 import { SiArcgis } from "react-icons/si";
 import { SiGoogleearthengine } from "react-icons/si";
+import { SiAutocad } from "react-icons/si";
 import { motion } from "motion/react";
 
 export default function GISTools() {
@@ -36,10 +37,13 @@ export default function GISTools() {
                 </div>
 
                 <div>
-                  <Image src="/icons/qgis.png" width={100} height={100} alt="QGIS" style={{ width: 'auto', height: 'auto' }} />
+                  <Image src="/icons/qgis.png" width={100} height={100} alt="QGIS"/>
                 </div>
-                <div>
-                  <Image src="/icons/FME.png" width={100} height={100} alt="FME"  style={{ width: 'auto', height: 'auto' }}/>
+                <div className="pr-6">
+                  <SiAutocad className="text-7xl text-red-500"/>
+                </div>
+                <div className="pr-6">
+                  <Image src="/icons/FME.png" width={80} height={80} alt="FME" />
                 </div>
                 <div>
                   <SiGoogleearthengine className="text-7xl text-gray-500" />

@@ -68,9 +68,9 @@ export default function Home() {
 
         <div>
           <motion.div
-            whileInView={{ opacity: 1, y: 0 }}
-            initial={{ opacity: 0, y: -100 }}
-            transition={{ duration: 0.5 }}
+            initial={{ opacity: 0, y: 50 }}
+            animate={{ opacity: 1, y: 0 }}
+            transition={{ type: "spring", stiffness: 200, damping: 20 }}
             className="fixed bottom-6 right-6 w-16 h-16 bg-gray-100 rounded-full shadow-lg flex items-center justify-center hover:scale-110 hover:shadow-2xl transition-transform">
             <button
               ref={buttonRef}

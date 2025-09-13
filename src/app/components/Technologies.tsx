@@ -11,6 +11,8 @@ import { FaGitAlt } from "react-icons/fa";
 import { FcLinux } from "react-icons/fc";
 import { SiTailwindcss } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
+import { SiJavascript } from "react-icons/si";
+import { SiApacheairflow } from "react-icons/si";
 import { motion } from "motion/react";
 
 
@@ -41,16 +43,22 @@ export default function Technologies() {
             <Image src="/icons/python1.png" width={60} height={60} alt="Python" />
           </div>
           <div>
+            <SiJavascript className="text-6xl text-yellow-300"/>
+          </div>
+          <div>
+            <SiTypescript  className="text-6xl text-blue-400"></SiTypescript>
+          </div>
+          <div>
             <FcLinux className="text-7xl"></FcLinux>
           </div>
           <div>
             <FaDocker className="text-7xl text-blue-500" />
           </div>
           <div>
-            <BiLogoPostgresql className="text-7xl text-blue-500" />
+            <Image src="/icons/Apache_Airflow.png" width={60} height={60} alt="Python" />
           </div>
           <div>
-            <SiTypescript  className="text-6xl text-blue-400"></SiTypescript>
+            <BiLogoPostgresql className="text-7xl text-blue-500" />
           </div>
           <div>
             <RiReactjsLine className="text-7xl text-cyan-400"></RiReactjsLine>

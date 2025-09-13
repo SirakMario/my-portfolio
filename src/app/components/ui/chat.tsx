@@ -98,7 +98,7 @@ export function Chat({
     <ChatContainer className={className}>
       {isEmpty && append && suggestions ? (
         <PromptSuggestions
-          label="Vitural Sirak, Q&A"
+          label="Sirak AI"
           append={append}
           suggestions={suggestions}
         />
@@ -123,9 +123,9 @@ export function Chat({
           <MessageInput
             value={input}
             onChange={handleInputChange}
-            allowAttachments
-            files={files}
-            setFiles={setFiles}
+            // allowAttachments
+            // files={files}
+            // setFiles={setFiles}
             stop={stop}
             isGenerating={isGenerating}
           />
