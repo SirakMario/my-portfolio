@@ -12,7 +12,6 @@ import { FcLinux } from "react-icons/fc";
 import { SiTailwindcss } from "react-icons/si";
 import { SiTypescript } from "react-icons/si";
 import { SiJavascript } from "react-icons/si";
-import { SiApacheairflow } from "react-icons/si";
 import { motion } from "motion/react";
 
 

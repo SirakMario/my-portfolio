@@ -119,18 +119,16 @@ export function Chat({
         isPending={isGenerating || isTyping}
         handleSubmit={handleSubmit}
       >
-        {({ files, setFiles }) => (
+        {() => (
           <MessageInput
             value={input}
             onChange={handleInputChange}
-            // allowAttachments
-            // files={files}
-            // setFiles={setFiles}
             stop={stop}
             isGenerating={isGenerating}
           />
         )}
       </ChatForm>
+
     </ChatContainer>
   )
 }
