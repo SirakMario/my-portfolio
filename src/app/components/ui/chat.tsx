@@ -98,7 +98,7 @@ export function Chat({
     <ChatContainer className={className}>
       {isEmpty && append && suggestions ? (
         <PromptSuggestions
-          label="Sirak AI"
+          label="SirakAI"
           append={append}
           suggestions={suggestions}
         />
