@@ -1,11 +1,8 @@
 import type { NextConfig } from "next";
 
 const nextConfig: NextConfig = {
-  /* config options here */
-    // @ts-ignore
-    eslint: {
-    // Warning: disabling ESLint during build
-    ignoreDuringBuilds: true,
+  eslint: {
+    ignoreDuringBuilds: true, // disables ESLint errors blocking the build
   },
   images: {
     domains: ["avatars.githubusercontent.com"],
