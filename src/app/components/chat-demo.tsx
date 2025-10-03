@@ -1,7 +1,6 @@
 "use client";
 
 import { useChat, type UseChatOptions } from "ai/react";
-
 import { Chat } from "./ui/chat";
 
 type ChatDemoProps = {
@@ -17,7 +16,18 @@ export function ChatDemo(props: ChatDemoProps) {
     append,
     stop,
     isLoading,
-  } = useChat(props);
+  } = useChat({
+    ...props,
+    initialMessages: [
+      {
+        id: "intro-1",
+        role: "assistant",
+        content:
+          "👋 Welcome! I’m SirakAI, Ask me about my skills, projects, or career.",
+      },
+      ...(props.initialMessages || []),
+    ],
+  });
 
   return (
     <div className="flex h-[500px] w-full">
