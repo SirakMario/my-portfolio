@@ -100,7 +100,7 @@ export const PROJECTS: Project[] = [
     links: "https://github.com/SirakMario/Aa-River---Web-Portal",
   },
   {
-    title: "Restaurant Finder",
+    title: "Student Centered Restaurant Finder Web App",
     image: project4,
     description:
       "Developed a full-stack web application using Django to serve a REST API with Bootstrap 5 for the front end. Implemented ETL processes to extract, transform, and load restaurant data from the Google API into PostgreSQL. Enabled CRUD operations for user reviews and integrated interactive maps for navigation and route guidance. Used Docker for containerization and deployment.",
@@ -112,7 +112,7 @@ export const PROJECTS: Project[] = [
     image: project5,
     description:
       "Developed a centralized web platform for managing geochemistry, geophysics, and map data. Implemented a security system with user account verification and enabled integration with GIS tools for data visualization, editing, and export. Optimized search queries and provided a summary view of geospatial data.",
-    technologies: ["Django", "Geoserver", "PostgreSQL"],
+    technologies: ["Django", "Geoserver", "PostgreSQL", "QGIS"],
     links: ""
   },
 ];
